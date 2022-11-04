@@ -1,0 +1,261 @@
+.hero_header {
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 110%;
+  z-index: 2;
+  letter-spacing: -0.04em;
+}
+
+.hero_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.53);
+}
+
+.hero_p_white {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.53);
+}
+
+.features_heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 105%;
+  /* or 39px */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+
+  /* Sync */
+
+  background: linear-gradient(
+      123.35deg,
+      #ebf3d0 0%,
+      rgba(235, 243, 208, 0) 18.4%
+    ),
+    radial-gradient(
+        29.9% 70.94% at 44.25% 86.96%,
+        #dc8ddc 0%,
+        rgba(220, 141, 220, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        33.83% 53.57% at 35.87% 100%,
+        #dc8ddc 0%,
+        rgba(220, 141, 220, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        42.66% 49.72% at 45.56% 44.65%,
+        #cbadeb 0%,
+        rgba(194, 166, 241, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(134.59deg, #cdf9e8 20.63%, rgba(205, 249, 232, 0) 47.84%),
+    linear-gradient(
+      216.44deg,
+      rgba(192, 169, 240, 0) -16.52%,
+      #c0a9f0 -1.04%,
+      rgba(192, 169, 240, 0) 16.99%
+    ),
+    linear-gradient(
+      128.53deg,
+      rgba(192, 169, 240, 0) 28.63%,
+      #c0a9f0 38.5%,
+      rgba(192, 169, 240, 0) 50.26%
+    ),
+    radial-gradient(
+        40.75% 97.37% at 90.75% 40.15%,
+        #fffdb1 0%,
+        #fee4bf 34.46%,
+        #f0bdd0 69.5%,
+        rgba(255, 129, 38, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #c2a6f1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.gradient_h1 {
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 800;
+  line-height: 105%;
+  letter-spacing: -0.025em;
+  background: linear-gradient(
+      123.35deg,
+      #ebf3d0 0%,
+      rgba(235, 243, 208, 0) 18.4%
+    ),
+    radial-gradient(
+        29.9% 70.94% at 44.25% 86.96%,
+        #dc8ddc 0%,
+        rgba(220, 141, 220, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        33.83% 53.57% at 35.87% 100%,
+        #dc8ddc 0%,
+        rgba(220, 141, 220, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        42.66% 49.72% at 45.56% 44.65%,
+        #cbadeb 0%,
+        rgba(194, 166, 241, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(134.59deg, #cdf9e8 20.63%, rgba(205, 249, 232, 0) 47.84%),
+    linear-gradient(
+      216.44deg,
+      rgba(192, 169, 240, 0) -16.52%,
+      #c0a9f0 -1.04%,
+      rgba(192, 169, 240, 0) 16.99%
+    ),
+    linear-gradient(
+      128.53deg,
+      rgba(192, 169, 240, 0) 28.63%,
+      #c0a9f0 38.5%,
+      rgba(192, 169, 240, 0) 50.26%
+    ),
+    radial-gradient(
+        40.75% 97.37% at 90.75% 40.15%,
+        #fffdb1 0%,
+        #fee4bf 34.46%,
+        #f0bdd0 69.5%,
+        rgba(255, 129, 38, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #c2a6f1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.features_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 105%;
+  text-align: center;
+  letter-spacing: -0.025em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btn_black {
+  background-color: #000000;
+  color: #ffffff;
+  width: 220px;
+  border-radius: 13px;
+  padding: 20px;
+  gap: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  
+}
+
+.gradienthero {
+  border-radius: 50%;
+  filter: blur(70px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(112, 0, 255, 0.8) 26.72%,
+    rgba(174, 39, 39, 0.9)
+  );
+}
+
+.midgradientbg {
+  background: linear-gradient(
+    180deg,
+    rgba(87, 11, 84, 0) 0%,
+    #570b54 32.29%,
+    #1d1d1d 51.04%,
+    #73006e 85.42%,
+    rgba(87, 11, 84, 0) 99.99%
+  );
+}
+
+.midfeaturebox {
+  background: radial-gradient(50% 50% at 50% 50%, #271836 0%, #000000 100%);
+}
+
+.mid_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105%;
+  /* or 25px */
+
+  letter-spacing: -0.025em;
+
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.roadmap_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height, or 130% */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+.inter_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roadmap_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #64607d;
+}
+
+.cta_box {
+  /* gradient3 */
+
+  background: linear-gradient(
+    96.61deg,
+    #6d0469 6.24%,
+    #000000 64.23%,
+    rgba(10, 10, 10, 0.971915) 74.09%,
+    rgba(29, 29, 29, 0.915033) 94.08%,
+    #73006e 136.17%
+  );
+  box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+}

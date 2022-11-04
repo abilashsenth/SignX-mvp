@@ -1,0 +1,59 @@
+.gradientbg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 800px;
+  height: 800px;
+  border-radius: 50% 22% 40% 80%;
+  filter: blur(100px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(112, 0, 255, 0.8) 26.72%,
+    rgba(174, 39, 39, 0.9)
+  );
+  opacity: 0.8;
+}
+
+.hero_h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 110%;
+  /* or 39px */
+
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.hero_div {
+  background: rgba(0, 0, 0, 0.32);
+  box-shadow: 2px 4px 28px rgba(0, 0, 0, 0.46);
+  border-radius: 26px;
+}
+
+.hero_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  /* or 18px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+
+.hero_btn{
+width: 180px;
+height: 62px;
+
+
+background: rgba(0, 0, 0, 0.4);
+border-radius: 16px;
+}

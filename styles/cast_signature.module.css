@@ -1,0 +1,111 @@
+
+.alert_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #999999;
+}
+
+.blackheading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 110%;
+  /* or 35px */
+  text-align: left;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.blacksubheading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  letter-spacing: -0.01em;
+
+  /* sarvvidgrey */
+
+  color: #999999;
+}
+
+.cardrectangle {
+  position: absolute;
+  width: 240px;
+  height: 218px;
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 15px;
+}
+
+.cardbutton {
+  width: 48px;
+  height: 48px;
+  left: 172px;
+  top: 20px;
+
+  /* sarvvidOffWhite */
+
+  background: #fafafa;
+  /* sarvvidOffWhite */
+
+  border: 1px solid #fafafa;
+  box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05),
+    0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963),
+    0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704),
+    0px 20px 13px rgba(41, 72, 152, 0.025),
+    0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296),
+    0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+  border-radius: 10px;
+}
+
+.signtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 105%;
+  letter-spacing: -0.025em;
+
+  color: #000000;
+}
+
+.cardrectangle2 {
+  width: 217px;
+  min-height: 51.49px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.hinttext {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.contenttext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* or 16px */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}

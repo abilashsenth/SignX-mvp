@@ -1,0 +1,40 @@
+.navbar_link {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 120%;
+  /* or 20px */
+}
+
+.cta_button_two {
+  width: 180px;
+  height: 62px;
+
+  background: linear-gradient(
+    270.77deg,
+    rgba(112, 0, 255, 0.24) 26.72%,
+    rgba(174, 39, 39, 0.24) 73.69%
+  );
+  border-radius: 13px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+}
+
+.cta_button_one {
+  width: 180px;
+  height: 62px;
+
+  background: black;
+  border-radius: 13px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+}

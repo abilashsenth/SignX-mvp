@@ -1,0 +1,188 @@
+.alert_p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #999999;
+}
+
+.blackheading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 110%;
+  text-align: left;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.blacksubheading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  letter-spacing: -0.01em;
+  color: #999999;
+}
+
+.cardrectangle {
+  position: absolute;
+  width: 240px;
+  height: 218px;
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 15px;
+}
+
+.cardbutton {
+  width: 48px;
+  height: 48px;
+  left: 172px;
+  top: 20px;
+  background: #fafafa;
+  border: 1px solid #fafafa;
+  box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05),
+    0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963),
+    0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704),
+    0px 20px 13px rgba(41, 72, 152, 0.025),
+    0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296),
+    0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+  border-radius: 10px;
+}
+
+.signtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 105%;
+  letter-spacing: -0.025em;
+  color: #000000;
+}
+
+.cardrectangle2 {
+  width: 217px;
+  min-height: 51.49px;
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.hinttext {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.contenttext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* or 16px */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.gradientbg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  border-radius: 50% 22% 40% 80%;
+  filter: blur(100px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(112, 0, 255, 0.8) 26.72%,
+    rgba(174, 39, 39, 0.9)
+  );
+  opacity: 0.8;
+}
+
+.modalh1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.modalp {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #575f6e;
+}
+
+.rainbowBtn {
+  width: 175px;
+  height: 48px;
+  left: 691px;
+  top: 699px;
+  border-style: none;
+  /* gradient */
+
+  background: linear-gradient(
+      103.25deg,
+      #400091 0%,
+      rgba(235, 243, 208, 0) 85.28%
+    ),
+    radial-gradient(
+        29.9% 70.94% at 44.25% 86.96%,
+        #dc8ddc 0%,
+        rgba(220, 141, 220, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        33.83% 53.57% at 35.87% 100%,
+        #dc8ddc 0%,
+        rgba(220, 141, 220, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        42.66% 49.72% at 45.56% 44.65%,
+        #cbadeb 0%,
+        rgba(194, 166, 241, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(134.59deg, #cdf9e8 20.63%, rgba(205, 249, 232, 0) 47.84%),
+    linear-gradient(
+      216.44deg,
+      rgba(192, 169, 240, 0) -16.52%,
+      #c0a9f0 -1.04%,
+      rgba(192, 169, 240, 0) 16.99%
+    ),
+    linear-gradient(
+      128.53deg,
+      rgba(192, 169, 240, 0) 28.63%,
+      #c0a9f0 38.5%,
+      rgba(192, 169, 240, 0) 50.26%
+    ),
+    radial-gradient(
+        40.75% 97.37% at 90.75% 40.15%,
+        #fffdb1 0%,
+        #fee4bf 34.46%,
+        #f0bdd0 69.5%,
+        rgba(255, 129, 38, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #c2a6f1;
+  border-radius: 9px;
+}
