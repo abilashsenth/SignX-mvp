@@ -182,7 +182,7 @@ const PreviewSign: NextPage = () => {
         {/* the saucy gradient */}
         <div
           className={[
-            '-mt-18 -z-1 flex flex-col items-center justify-center py-2',
+            'mt-18 h-screen z-1 flex flex-col items-center justify-center',
             Style.gradientbg,
           ].join(' ')}
         ></div>

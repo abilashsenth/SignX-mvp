@@ -238,6 +238,7 @@ const Home: NextPage = () => {
                                     className="h-5 w-5"
                                     viewBox="0 0 20 20"
                                     fill="#64FD7C"
+                                    
                                   >
                                     <path
                                       fillRule="evenodd"
@@ -273,8 +274,7 @@ const Home: NextPage = () => {
                                     stroke="currentColor"
                                     onClick={() => {
                                       copyToClipboard(
-                                        'https://www.signx.dev/sign/' +
-                                          signsDeployed[i].signCode
+                                        signsDeployed[i].signOwnerAddress
                                       )
                                     }}
                                     strokeWidth={2}

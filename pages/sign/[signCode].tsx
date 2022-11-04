@@ -494,19 +494,21 @@ const PreviewDeployedSign: NextPage = () => {
                     </p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
+                      className="mx-2 h-6 w-6"
                       fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      onClick={() => {
-                        openEtherScan(signData[1]?.signerTransactionHash)
-                      }}
+                      viewBox="0 0 26 26"
+                      stroke="#ffffff"
                       strokeWidth={2}
+                      onClick={() => {
+                        copyToClipboard(
+                          signData[1]?.signerTransactionHash
+                        )
+                      }}
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
                       />
                     </svg>
                   </div>
